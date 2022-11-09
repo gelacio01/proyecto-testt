@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tema 1</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Ciencias Naturales </h1>
+        <p>INSTRUCCIONES Contesta el cuestionario en base al tema "Ecosistemas"</p>
+    </header>
+    <div class="container">
+        <section id="p0">
+            <h3>1- ¿Qué son los ecosistemas?</h3>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Son bosques de encinas o alcornoques en los que se han talado algunos árboles, para 
+                que la extensión de terreno que queda entre ellos se utilice para pastos o para cultivos. 
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> Es el componente principal es el suelo. las horas de luz, la cantidad de precipitaciones,
+                la altura sobre el nivel del mar, el realive, la temperatura, son factores que influyen en los ecosistemas terrestres.
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> Son comunidades de seres vivos que interactuan y forman parte del un ambiente 
+                fisico que les proporciona las condiciones nesesarias para vivir.
+            </label>
+        </section>
+
+        <section id="p1">
+            <h3>2- ¿A que se refiere el ecositema terrestre?</h3>
+            <label>
+                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Es el componente principal es el suelo. las horas de luz, la cantidad de precipitaciones,
+                la altura sobre el nivel del mar, el realive, la temperatura, son factores que influyen en los ecosistemas terrestres.
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)">Son bosques de encinas o alcornoques en los que se han talado algunos árboles, para que la extensión 
+                de terreno que queda entre ellos se utilice para pastos o para cultivos.
+            </label>
+            <label>
+                <input type="radio" value="3" name="p1"onclick="respuesta(1,this)"> Son comunidades de seres vivos que interactúan y forman parte de un ambiente físico que les 
+                proporciona las condiciones necesarias para vivir.
+            </label>
+
+        </section> 
+        <section id="p2">
+            <h3>3- ¿Cuales son los ecositemas naturales terrestres?</h3>
+            <label>
+                <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> Ecosistemas de agua dulece, Ecosistema de agua salda.
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> La selva, Bosque templado, Sabana, Desierto frio, Desierto calido.
+            </label>
+            <label>
+                <input type="radio" value="3" name="p2"onclick="respuesta(2,this)"> Ninguna de las anteriores. 
+            </label>
+        </section>
+
+        <section id="p3">
+            <h3>4- Ecosistemas naturales terrestres. Las temperaturas son muy bajas y las precipitaciones son escasas, generalmente en forma de nieve. Hay muy 
+                poca vegetación y los animales poseen una gruesa 
+                capa de grasa bajo la piel que les protege del frío.</h3>
+            <label>
+                <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> Sabana
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> Desierto frio
+            </label>
+            <label>
+                <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> Desierto calido
+            </label>
+        </section>
+
+        <section id="p4">
+            <h3>5- ¿Cuales son los ecositemas naturales acuaticos?</h3>
+            <label>
+                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> Decierto calido y fresco.
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> La selva, Bosque templado, Sabana, Desierto frio, Desierto calido.
+            </label>
+            <label>
+                <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> Ecosistemas de agua dulece, Ecosistema de agua salda,
+            </label>
+        </section>
+
+        <button onclick="corregir()">Corregir</button>
+        <h2>Cantidad acertadas: <span id="resultado"></span></h2>
+    </div>
+    <script src="script.js"></script>
+
+    <button <li><a href="tema2.html">ir al  tema 2 </a> </li></button><br>
+    <button <li><a href="index.html">ir al  menu </a> </li></button>
+</body>
+</html>

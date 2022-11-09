@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tema 1</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Ciencias Naturales </h1>
+        <p>INSTRUCCIONES Contesta el cuestionario en base al tema "Seres vivos"</p>
+    </header>
+    <div class="container">
+        <section id="p0">
+            <h3>1- ¿Qué son los seres vivos?</h3>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Los seres vivos son los que conocen lo que pasa a su alrededor y reaccionan de un modo 
+                adecuado a los estímulos con los que se pueden encontrar. 
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> Son organismos vivos dan origen a otros nuevos organismos.
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> Un ser vivo es un organismo complejo que realiza una serie de actividades: nacen, crecen,
+                se alimentan, se reproducen, se relacionan y, finalmente, mueren.
+            </label>
+        </section>
+
+        <section id="p1">
+            <h3>2- ¿Que es una celula?</h3>
+            <label>
+                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Es la unidad más pequeña que puede vivir 
+                por sí sola. Forma todos los organismos vivos y los tejidos del cuerpo.
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> Es el proceso por el que toman los alimentos, después los transforman y, finalmente, expulsan las sustancias de desecho que se producen. 
+            </label>
+            <label>
+                <input type="radio" value="3" name="p1"onclick="respuesta(1,this)"> Son organismos vivos dan origen a otros nuevos organismos.
+            </label>
+
+        </section> 
+        <section id="p2">
+            <h3>3- ¿De que estan formados los seres vivos?</h3>
+            <label>
+                <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> De aire.
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> De celulas.
+            </label>
+            <label>
+                <input type="radio" value="3" name="p2"onclick="respuesta(2,this)"> De carne.
+            </label>
+        </section>
+
+        <section id="p3">
+            <h3>4- ¿Cuales son las tres partes principales de la célula?</h3>
+            <label>
+                <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> La menbrena celular, el aire, y el citoplasma
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> La membrana celular, el núcleo y el citoplasma.
+            </label>
+            <label>
+                <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> Ninguna de las anteriores
+            </label>
+        </section>
+
+        <section id="p4">
+            <h3>5- ¿Cuáles son las características de los seres vivos?</h3>
+            <label>
+                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> La menbrena celular, el aire, y el citoplasma
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> La membrana celular, el núcleo y el citoplasma.
+            </label>
+            <label>
+                <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> Poseen una organización,Crecen y se desarrollan, aumentan el tamaño o el número de células de los conforman,
+                Evolucionan y se adaptan, Regulan funciones vitales, Tienen metabolismo, Posee movimiento.
+            </label>
+        </section>
+
+        <button onclick="corregir()">Corregir</button>
+        <h2>Cantidad acertadas: <span id="resultado"></span></h2>
+    </div>
+    <script src="script.js"></script>
+
+    <button <li><a href="tema1.html">ir al  tema 1 </a> </li></button><br>
+
+    <button <li><a href="index.html">ir al  menu </a> </li></button>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tema 1</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Ciencias Naturales </h1>
+        <p>INSTRUCCIONES Contesta el cuestionario en base al tema "Las plantas"</p>
+    </header>
+    <div class="container">
+        <section id="p0">
+            <h3>1- ¿Qué son las plantas?</h3>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> son las que Fabrican su propio alimento, tres partes(raiz, tallo, hojas). No se desplazan, son terrestres.
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> Es un arbol verde
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> las plantas como seres vivientes, generalmente
+                de color verde, que se han adaptado al medio donde viven y que, casi siempre, se encuentra fijas sobre el terreno.
+            </label>
+        </section>
+
+        <section id="p1">
+            <h3>2- ¿cuales son las caracteristicas de las plantas?</h3>
+            <label>
+                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Fabrican su propio alimento, tres partes(raiz, tallo, hojas). No se desplazan, son terrestres. 
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> Es el proceso por el que toman los alimentos, después los transforman y, finalmente, expulsan las sustancias de desecho que se producen. 
+            </label>
+            <label>
+                <input type="radio" value="3" name="p1"onclick="respuesta(1,this)"> Son organismos vivos dan origen a otros nuevos organismos.
+            </label>
+
+        </section> 
+        <section id="p2">
+            <h3>3- ¿Para que sirven las planats con flores?</h3>
+            <label>
+                <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> para dar vida .
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> Sirven para la reproduccion de las plantas. to das las semillas se reproducen. 
+            </label>
+            <label>
+                <input type="radio" value="3" name="p2"onclick="respuesta(2,this)"> sirven para dar oxigeno.
+            </label>
+        </section>
+
+        <section id="p3">
+            <h3>4- ¿Cuales son los componetes para la nutricion de las plantas?</h3>
+            <label>
+                <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> nacer, crecer, y morir 
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> Aguas y sales minerales, Gases, la luz del sol.
+            </label>
+            <label>
+                <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> Ninguna de las anteriores
+            </label>
+        </section>
+
+        <section id="p4">
+            <h3>5- ¿como es el proceso de la nutricion de una planta?</h3>
+            <label>
+                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> Por las raices absorben del suelo agua con sales 
+                minerales disueltas que recibe el nombre de savia bruta,  La savia bruta sube a lo largo del tallo hasta las hojas por unos 
+                finicimos conductos llamados tubos leñosos.
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> Las hojas de las plantas tienen pequeños poros por donde entra el aire 
+                En las hojas, las plantas fabrican su alimento a partir del dioxido de carbono, del aire y de la savia bruta. Para ello necesita la luz del sol. 
+                El liquido nutritivoelaborado se llama saviaelaborada y esa es trasportada por otros conductos llamados tubos liberarios, a todas partes de la planta
+                raiz, tallo, flores,frutos, y las hojas.
+            </label>
+            <label>
+                <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> Todas las anteriores.
+            </label>
+        </section>
+
+        <button onclick="corregir()">Corregir</button>
+        <h2>Cantidad acertadas: <span id="resultado"></span></h2>
+    </div>
+    <script src="script.js"></script>
+
+    <button <li><a href="index.html">ir al  menu </a> </li></button><br>
+    <button <li><a href="tema3.html">ir al tema 3</a> </li></button>
+</body>
+</html>
